@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Safari_Park
 {
-    public class Wolf : Dog
+    public enum WoolType
     {
-        public Wolf()
-        {
-        }
+        Short_haired,
+        Long_haired,
+        Curly,
+        Hairless
     }
 }

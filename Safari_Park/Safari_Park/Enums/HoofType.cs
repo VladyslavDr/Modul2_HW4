@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Safari_Park
 {
-    public class Emu : Ostrich
+    public enum HoofType
     {
+        Paranormous,
+        Cloven_Hoofed,
+        Calloused
     }
 }

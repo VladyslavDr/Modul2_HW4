@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Safari_Park
 {
-    public class Wolf : Dog
+    public class Wool
     {
-        public Wolf()
-        {
-        }
+        public ConsoleColor Color { get; set; }
+        public WoolType Type { get; set; }
     }
 }

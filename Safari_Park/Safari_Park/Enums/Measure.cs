@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Safari_Park
 {
-    public class Wolf : Dog
+    public enum Measure
     {
-        public Wolf()
-        {
-        }
+        Kg,
+        Gr,
     }
 }

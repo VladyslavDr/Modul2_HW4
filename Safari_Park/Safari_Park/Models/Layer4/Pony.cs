@@ -8,5 +8,9 @@ namespace Safari_Park
 {
     public class Pony : Horse
     {
+        public Pony(DateTime birthDate, Weight weight, Country habitat, bool tame, Wool wool, string nickname)
+            : base(birthDate, weight, habitat, tame, wool, nickname)
+        {
+        }
     }
 }
