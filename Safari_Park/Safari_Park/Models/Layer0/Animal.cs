@@ -20,11 +20,6 @@ namespace Safari_Park
             _tame = tame;
         }
 
-        /*
-        public Weight Weight { get; set; }
-        public Country Habitat { get; set; }
-        public bool Tame { get; set; }
-        */
         public int CompareTo(object obj)
         {
             throw new NotImplementedException();

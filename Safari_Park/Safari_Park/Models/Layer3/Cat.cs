@@ -8,5 +8,12 @@ namespace Safari_Park
 {
     public abstract class Cat : Predatory
     {
+        public Cat(DateTime birthDate, Weight weight, Country habitat, bool tame, Wool wool, string nickname, Length canineLength, Length mustacheLength)
+            : base(birthDate, weight, habitat, tame, wool, nickname, canineLength)
+        {
+            MustacheLength = mustacheLength;
+        }
+
+        public Length MustacheLength { get; init; }
     }
 }

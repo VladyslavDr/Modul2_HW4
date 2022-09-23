@@ -8,12 +8,12 @@ namespace Safari_Park
 {
     public class Ostrich : Bird
     {
-        public Ostrich(DateTime birthDate, Weight weight, Country habitat, bool tame, Plumage plumage, int wingspan)
-            : base(birthDate, weight, habitat, tame, plumage)
+        public Ostrich(DateTime birthDate, Weight weight, Country habitat, bool tame, Plumage plumage, Length wingspan, BeakForm beakForm)
+            : base(birthDate, weight, habitat, tame, plumage, beakForm)
         {
             Wingspan = wingspan;
         }
 
-        public int Wingspan { get; init; }
+        public Length Wingspan { get; init; }
     }
 }

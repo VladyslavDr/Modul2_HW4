@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Safari_Park
 {
-    public enum Measure
+    public enum TypeOfFox
     {
-        Kg,
-        Gr,
-        Sm,
+        Corsac,
+        Arctic_fox,
+        Sandy,
+        Fenek,
+        Big_eared
     }
 }

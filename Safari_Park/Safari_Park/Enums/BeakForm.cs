@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Safari_Park
+public enum BeakForm
 {
-    public enum Measure
-    {
-        Kg,
-        Gr,
-        Sm,
-    }
+    Predatory,
+    Water,
+    Granivorous,
+    Insectivorous
 }

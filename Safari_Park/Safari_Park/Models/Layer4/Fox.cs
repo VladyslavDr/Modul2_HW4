@@ -8,5 +8,9 @@ namespace Safari_Park
 {
     public class Fox : Dog
     {
+        public Fox(DateTime birthDate, Weight weight, Country habitat, bool tame, Wool wool, string nickname, Length canineLength, Length mustacheLength)
+            : base(birthDate, weight, habitat, tame, wool, nickname, canineLength, mustacheLength)
+        {
+        }
     }
 }

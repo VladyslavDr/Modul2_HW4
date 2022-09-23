@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Safari_Park
+namespace Safari_Park.Enums
 {
-    public enum Measure
+    class TypeOfWolf
     {
-        Kg,
-        Gr,
-        Sm,
     }
 }

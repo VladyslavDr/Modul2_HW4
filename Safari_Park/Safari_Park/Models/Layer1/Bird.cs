@@ -15,5 +15,7 @@ namespace Safari_Park
         }
 
         public Plumage Plumage { get; init; }
+
+        // клюв
     }
 }
